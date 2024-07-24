@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body { 
-         font-family: Arial, Helvetica, sans-serif;
-        }
-.navbar {
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .navbar {
   overflow: hidden;
   background-color: #080838;
 }
@@ -77,33 +79,84 @@
   padding: 10px 10px;
   text-decoration: none;
 }
-        
-body {
-          background-image: url('../asset/img/coming-soon-bg.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: 100% 100%;
-        }
-        </style>
+
+.split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+
+      .left {
+        left: 0;
+      }
+
+      .right {
+        right:0;
+        top: 20%;
+        max-height:100%;
+      }
+
+
+    body {
+      background-image: url('../asset/img/PLgQbl.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+
+  </style>
 </head>
+
 <body>
-    <div class="navbar">
-        <a href="contact.html">contact</a>
-        <div class="dropdown">
-            <button class="dropbtn">about us
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">who we are</a>
-              <a href="#">what we do2</a>
-              <a href="#">external url</a>
-            </div>
-          </div> 
-        <a href="courses.html">courses</a>
-        <a href="home.html">home</a>
-        <div class="navbar-text">GRAD SCHOOL</div>
-        
-      </div>
-      
+  <div class="navbar">
+    <a href="contact.html">contact</a>
+    <div class="dropdown">
+        <button class="dropbtn">about us
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">who we are</a>
+          <a href="#">what we do2</a>
+          <a href="#">external url</a>
+        </div>
+      </div> 
+    <a href="courses.html">courses</a>
+    <a href="home.html">home</a>
+    <div class="navbar-text">GRAD SCHOOL</div>
+  </div>
+  <div class="split left">
+    <div class="centered">
+      <br><br><br><br>
+      <h3 style="color:white; text-align: center; ">our presentation is for you</h3> <br>
+      <h1 style="color:yellow; text-align: center; ">watch the video to learn more <br>about Grad</h1>
+      <br><br><br>
+
+      <p style="color:white; text-align: center; ">
+        Schools are foundational institutions that provide structured education to students, <br>
+        facilitating both intellectual and social growth. They encompass various levels,<br>
+        including primary, secondary, and sometimes tertiary education, tailored to different <br>
+        age groups and learning stages. Schools offer diverse subjects such as mathematics, science, <br>
+        languages, arts, and physical education, aiming to equip students with essential <br>
+        knowledge and skills for future careers and personal development. Beyond academics, <br>
+        schools instill social values, critical thinking, and problem-solving abilities, <br>
+        and support extracurricular activities for holistic growth. Teachers, as key facilitators, <br>
+        nurture an environment that fosters curiosity, discipline, and a lifelong love of learning.
+      </p>
+    </div>
+  </div>
+  <div class="split right">
+    <div class="centered">
+      <img src="../asset/img/logo2.png" alt="Avatar man">
+
+    </div>
+  </div>
+</div>
+  
+ 
 </body>
+
 </html>
