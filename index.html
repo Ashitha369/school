@@ -1,144 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-    
-        <style>
-        body { 
-         font-family: Arial, Helvetica, sans-serif;
-        }
-.navbar {
-  overflow: hidden;
-  background-color: #080838;
-}
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/lightbox.css">
 
-.navbar a {
-  float: right;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #080838;
+    }
+
+    .navbar a {
+      float: right;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
 
 
-.dropdown {
-  float: right;
-  overflow: hidden;
-}
+    .dropdown {
+      float: right;
+      overflow: hidden;
+    }
 
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: red;
+    }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
 
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: right;
-}
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: right;
+    }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
 
-.navbar-text {
-  float: left;
-  font-size: 16px;
-  color: yellow;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-}
-        
-body {
-          background-image: url('./asset/img/PLgQbl.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: 100% 100%;
-        }
-       
-h1 {
-            font-size: 60px;
-            text-align: center;
-        }
-        
-.button {
-            border: none;
-            color: white;
-            padding: 10px 16px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-        
-.button {background-color: rgb(240, 213, 92);}
+    .navbar-text {
+      float: left;
+      font-size: 16px;
+      color: yellow;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+    }
 
-        </style>
+    /* body {
+
+      margin: 0;
+      font-family: Arial;
+      font-size: 17px;
+    }
+
+    #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    } */
+
+
+    h1 {
+      font-size: 60px;
+      text-align: center;
+    }
+
+    .button {
+      border: none;
+      color: white;
+      padding: 10px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .button {
+      background-color: rgb(240, 213, 92);
+    }
+  </style>
 </head>
-<body> 
-    <div class="navbar">
-        <a href="./pages/contact.html">contact</a>
-        <div class="dropdown">
-            <button class="dropbtn">about us
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">who we are</a>
-              <a href="#">what we do2</a>
-              <a href="#">external url</a>
-            </div>
-          </div> 
-        <a href="./pages/courses.html">courses</a>
-        <a href="./pages/home.html">home</a>
-        <div class="navbar-text">GRAD SCHOOL</div>
-        
+
+<body>
+  <!-- <video autoplay muted loop id="myVideo">
+    <source src="./asset/img/video.mp4" type="video/mp4">
+  </video>
+  <script>
+    var video = document.getElementById("myVideo");
+  </script> -->
+
+  <div class="navbar">
+    <a href="./pages/contact.html">contact</a>
+    <div class="dropdown">
+      <button class="dropbtn">about us
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">who we are</a>
+        <a href="#">what we do</a>
+        <a href="#">external url</a>
       </div>
+    </div>
+    <a href="./pages/courses.html">courses</a>
+    <a href="./pages/home.html">home</a>
+    <div class="navbar-text">GRAD SCHOOL</div>
+
+  </div>
   <br><br><br>
-   <div> 
-    <h3 style="color:white; text-align: center; " > Graduate school of management</h3>
+  <div>
+    <h3 style="color:white; text-align: center; "> Graduate school of management</h3>
     <h1 style="color:yellow; text-align: center;"> YOUR CLASSROOM</h1>
-   </div>
-   <center>
+  </div>
+  <center>
     <button class="button ">discover more</button>
-   </center>
+  </center>
 </body>
+
 </html>
